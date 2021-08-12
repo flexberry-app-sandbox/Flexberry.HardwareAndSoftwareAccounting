@@ -1,0 +1,197 @@
+﻿{
+  "name": "IISHardware_and_Software_accountingOperations",
+  "modelName": "i-i-s-hardware-and-software-accounting-operations",
+  "className": "Operations",
+  "nameSpace": "IIS.Hardware_and_Software_accounting",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "date",
+      "type": "date",
+      "flexberryType": "DateTime",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "action",
+      "type": "i-i-s-hardware-and-software-accounting-t-action",
+      "flexberryType": "tAction",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "state",
+      "type": "i-i-s-hardware-and-software-accounting-t-state",
+      "flexberryType": "tState",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "hardware",
+      "relatedTo": "i-i-s-hardware-and-software-accounting-hardware",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "admin",
+      "relatedTo": "i-i-s-hardware-and-software-accounting-user",
+      "inverse": null
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "OperationsE",
+      "modelName": "i-i-s-hardware-and-software-accounting-operations",
+      "attrs": [
+        {
+          "name": "date",
+          "caption": "Date",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "action",
+          "caption": "Action",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "state",
+          "caption": "State",
+          "hidden": false,
+          "index": 2
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": "InventoryNumber",
+          "lookupValueField": "inventoryNumber",
+          "relationName": "Hardware",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "inventoryNumber",
+              "caption": "Inventory number",
+              "hidden": true,
+              "index": 4
+            }
+          ],
+          "index": 3,
+          "type": "standard",
+          "caption": "Hardware",
+          "name": "hardware",
+          "relatedTo": "i-i-s-hardware-and-software-accounting-hardware",
+          "inverse": null
+        },
+        {
+          "lookupValue": "Name",
+          "lookupValueField": "name",
+          "relationName": "Admin",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "name",
+              "caption": "Name",
+              "hidden": true,
+              "index": 6
+            }
+          ],
+          "index": 5,
+          "type": "standard",
+          "caption": "Admin",
+          "name": "admin",
+          "relatedTo": "i-i-s-hardware-and-software-accounting-user",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    },
+    {
+      "name": "OperationsL",
+      "modelName": "i-i-s-hardware-and-software-accounting-operations",
+      "attrs": [
+        {
+          "name": "date",
+          "caption": "Date",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "action",
+          "caption": "Action",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "state",
+          "caption": "State",
+          "hidden": false,
+          "index": 2
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "Hardware",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "inventoryNumber",
+              "caption": "Inventory number",
+              "hidden": false,
+              "index": 3
+            }
+          ],
+          "index": -1,
+          "type": "default",
+          "caption": "Inventory number",
+          "name": "hardware",
+          "relatedTo": "i-i-s-hardware-and-software-accounting-hardware",
+          "inverse": null
+        },
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "Admin",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "name",
+              "caption": "Name",
+              "hidden": false,
+              "index": 4
+            }
+          ],
+          "index": -1,
+          "type": "default",
+          "caption": "Name",
+          "name": "admin",
+          "relatedTo": "i-i-s-hardware-and-software-accounting-user",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

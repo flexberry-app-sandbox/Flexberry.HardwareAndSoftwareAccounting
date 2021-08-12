@@ -1,0 +1,8 @@
+﻿{
+  "nameSpace": "IIS.Hardware_and_Software_accounting",
+  "className": "tAction",
+  "enumObjects": {
+    "Install": "Install",
+    "Modify": "Modify"
+  }
+}

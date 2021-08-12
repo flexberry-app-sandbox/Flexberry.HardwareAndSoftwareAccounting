@@ -1,0 +1,4 @@
+import IISHardware_and_Software_accountingWorkplaceEController from '../i-i-s-hardware-and-software-accounting-workplace-e';
+
+var IISHardware_and_Software_accountingWorkplaceENewController = IISHardware_and_Software_accountingWorkplaceEController;
+export default IISHardware_and_Software_accountingWorkplaceENewController;

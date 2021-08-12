@@ -1,0 +1,65 @@
+﻿{
+  "applicationCaption": "Hardware_and_ software_accounting",
+  "applicationTitle": "Hardware_and_ software_accounting",
+  "items": [
+    {
+      "link": null,
+      "menuName": "accounting",
+      "caption": "Accounting",
+      "title": "Accounting",
+      "children": [
+        {
+          "link": "i-i-s-hardware-and-software-accounting-operations-l",
+          "menuName": null,
+          "caption": "Operations",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-hardware-and-software-accounting-workplace-l",
+          "menuName": null,
+          "caption": "Workplace",
+          "title": "",
+          "children": null
+        }
+      ]
+    },
+    {
+      "link": null,
+      "menuName": "references",
+      "caption": "References",
+      "title": "References",
+      "children": [
+        {
+          "link": "i-i-s-hardware-and-software-accounting-user-l",
+          "menuName": null,
+          "caption": "User",
+          "title": "User",
+          "children": null
+        },
+        {
+          "link": "i-i-s-hardware-and-software-accounting-vendor-l",
+          "menuName": null,
+          "caption": "Vendor",
+          "title": "Vendor",
+          "children": null
+        },
+        {
+          "link": "i-i-s-hardware-and-software-accounting-branch-office-l",
+          "menuName": null,
+          "caption": "Branch",
+          "title": "Branch office",
+          "children": null
+        },
+        {
+          "link": "i-i-s-hardware-and-software-accounting-hardware-type-l",
+          "menuName": null,
+          "caption": "Hardware Type",
+          "title": "Hardware type",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}

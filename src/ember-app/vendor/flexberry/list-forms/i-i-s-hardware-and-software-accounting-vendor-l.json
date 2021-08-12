@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-hardware-and-software-accounting-vendor-e",
+  "editForm": "i-i-s-hardware-and-software-accounting-vendor-e",
+  "external": false,
+  "caption": "Vendor",
+  "name": "IISHardware_and_Software_accountingVendorL",
+  "className": "VendorL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-hardware-and-software-accounting-vendor",
+      "modelProjection": "VendorL"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-hardware-and-software-accounting-workplace-e",
+  "editForm": "i-i-s-hardware-and-software-accounting-workplace-e",
+  "external": false,
+  "caption": "Workplace",
+  "name": "IISHardware_and_Software_accountingWorkplaceL",
+  "className": "WorkplaceL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-hardware-and-software-accounting-workplace",
+      "modelProjection": "WorkplaceL"
+    }
+  ]
+}

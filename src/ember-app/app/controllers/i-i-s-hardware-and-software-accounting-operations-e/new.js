@@ -1,0 +1,4 @@
+import IISHardware_and_Software_accountingOperationsEController from '../i-i-s-hardware-and-software-accounting-operations-e';
+
+var IISHardware_and_Software_accountingOperationsENewController = IISHardware_and_Software_accountingOperationsEController;
+export default IISHardware_and_Software_accountingOperationsENewController;

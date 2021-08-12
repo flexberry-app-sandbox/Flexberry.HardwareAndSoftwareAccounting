@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hardware_and_Software_accounting.ODataBackend", "../../src/Hardware_and_Software_accounting/ODataBackend/Hardware_and_Software_accounting.ODataBackend.csproj", "{FE8BC0E8-8F99-4F1B-A746-CC851126E184}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hardware_and_Software_accounting.Objects", "../../src/Hardware_and_Software_accounting/Objects/Hardware_and_Software_accounting.Objects.csproj", "{076FA0E8-E83D-4B85-B56C-80DF5E442FFB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+Debug|Any CPU = Debug|Any CPU
+Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FE8BC0E8-8F99-4F1B-A746-CC851126E184}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE8BC0E8-8F99-4F1B-A746-CC851126E184}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE8BC0E8-8F99-4F1B-A746-CC851126E184}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE8BC0E8-8F99-4F1B-A746-CC851126E184}.Release|Any CPU.Build.0 = Release|Any CPU
+		{076FA0E8-E83D-4B85-B56C-80DF5E442FFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{076FA0E8-E83D-4B85-B56C-80DF5E442FFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{076FA0E8-E83D-4B85-B56C-80DF5E442FFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{076FA0E8-E83D-4B85-B56C-80DF5E442FFB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,107 @@
+﻿{
+  "name": "IISHardware_and_Software_accountingSoftware",
+  "modelName": "i-i-s-hardware-and-software-accounting-software",
+  "className": "Software",
+  "nameSpace": "IIS.Hardware_and_Software_accounting",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "name",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "version",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "isFreeware",
+      "type": "boolean",
+      "flexberryType": "bool",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "vendor",
+      "relatedTo": "i-i-s-hardware-and-software-accounting-vendor",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "workplace",
+      "relatedTo": "i-i-s-hardware-and-software-accounting-workplace",
+      "inverse": "software"
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "SoftwareE",
+      "modelName": "i-i-s-hardware-and-software-accounting-software",
+      "attrs": [
+        {
+          "name": "name",
+          "caption": "Name",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "version",
+          "caption": "Version",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "isFreeware",
+          "caption": "Is freeware",
+          "hidden": false,
+          "index": 2
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": "Name",
+          "lookupValueField": "name",
+          "relationName": "Vendor",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "name",
+              "caption": "Name",
+              "hidden": true,
+              "index": 4
+            }
+          ],
+          "index": 3,
+          "type": "standard",
+          "caption": "Vendor",
+          "name": "vendor",
+          "relatedTo": "i-i-s-hardware-and-software-accounting-vendor",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

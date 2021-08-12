@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-hardware-and-software-accounting-hardware-type-e",
+  "editForm": "i-i-s-hardware-and-software-accounting-hardware-type-e",
+  "external": false,
+  "caption": "Hardware type",
+  "name": "IISHardware_and_Software_accountingHardwareTypeL",
+  "className": "HardwareTypeL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-hardware-and-software-accounting-hardware-type",
+      "modelProjection": "HardwareTypeL"
+    }
+  ]
+}

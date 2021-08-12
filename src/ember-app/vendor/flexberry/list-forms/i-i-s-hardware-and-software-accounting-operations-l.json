@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-hardware-and-software-accounting-operations-e",
+  "editForm": "i-i-s-hardware-and-software-accounting-operations-e",
+  "external": false,
+  "caption": "Operations",
+  "name": "IISHardware_and_Software_accountingOperationsL",
+  "className": "OperationsL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-hardware-and-software-accounting-operations",
+      "modelProjection": "OperationsL"
+    }
+  ]
+}

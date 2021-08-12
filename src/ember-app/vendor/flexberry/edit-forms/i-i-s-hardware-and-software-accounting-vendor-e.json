@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Vendor",
+  "name": "IISHardware_and_Software_accountingVendorE",
+  "className": "VendorE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-hardware-and-software-accounting-vendor",
+      "modelProjection": "VendorE"
+    }
+  ]
+}

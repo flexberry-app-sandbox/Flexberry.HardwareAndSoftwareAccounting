@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-hardware-and-software-accounting-user-e",
+  "editForm": "i-i-s-hardware-and-software-accounting-user-e",
+  "external": false,
+  "caption": "User",
+  "name": "IISHardware_and_Software_accountingUserL",
+  "className": "UserL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-hardware-and-software-accounting-user",
+      "modelProjection": "UserL"
+    }
+  ]
+}

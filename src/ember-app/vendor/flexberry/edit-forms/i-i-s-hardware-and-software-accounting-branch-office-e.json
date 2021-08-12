@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Branch office",
+  "name": "IISHardware_and_Software_accountingBranchOfficeE",
+  "className": "BranchOfficeE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-hardware-and-software-accounting-branch-office",
+      "modelProjection": "BranchOfficeE"
+    }
+  ]
+}

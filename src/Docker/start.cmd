@@ -1,0 +1,1 @@
+docker-compose -p hardware_and_software_accounting up -d

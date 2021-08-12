@@ -1,0 +1,4 @@
+import IISHardware_and_Software_accountingUserEController from '../i-i-s-hardware-and-software-accounting-user-e';
+
+var IISHardware_and_Software_accountingUserENewController = IISHardware_and_Software_accountingUserEController;
+export default IISHardware_and_Software_accountingUserENewController;

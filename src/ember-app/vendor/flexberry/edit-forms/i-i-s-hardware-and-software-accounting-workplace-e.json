@@ -1,0 +1,47 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Branch",
+      "projection": "BranchOfficeL",
+      "detailModelName": null
+    },
+    {
+      "master": "vendor",
+      "displayAttributeName": "name",
+      "required": true,
+      "relationName": "Software.Vendor",
+      "projection": "VendorL",
+      "detailModelName": "i-i-s-hardware-and-software-accounting-software"
+    },
+    {
+      "master": "hardwareType",
+      "displayAttributeName": "name",
+      "required": true,
+      "relationName": "Hardware.HardwareType",
+      "projection": "HardwareTypeL",
+      "detailModelName": "i-i-s-hardware-and-software-accounting-hardware"
+    },
+    {
+      "master": "employee",
+      "displayAttributeName": "name",
+      "required": true,
+      "relationName": "Hardware.Employee",
+      "projection": "UserL",
+      "detailModelName": "i-i-s-hardware-and-software-accounting-hardware"
+    }
+  ],
+  "external": false,
+  "caption": "Workplace",
+  "name": "IISHardware_and_Software_accountingWorkplaceE",
+  "className": "WorkplaceE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-hardware-and-software-accounting-workplace",
+      "modelProjection": "WorkplaceE"
+    }
+  ]
+}

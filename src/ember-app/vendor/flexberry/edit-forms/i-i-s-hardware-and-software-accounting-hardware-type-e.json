@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Hardware type",
+  "name": "IISHardware_and_Software_accountingHardwareTypeE",
+  "className": "HardwareTypeE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-hardware-and-software-accounting-hardware-type",
+      "modelProjection": "HardwareTypeE"
+    }
+  ]
+}

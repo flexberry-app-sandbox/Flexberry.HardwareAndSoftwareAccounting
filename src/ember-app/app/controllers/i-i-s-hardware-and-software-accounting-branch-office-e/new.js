@@ -1,0 +1,4 @@
+import IISHardware_and_Software_accountingBranchOfficeEController from '../i-i-s-hardware-and-software-accounting-branch-office-e';
+
+var IISHardware_and_Software_accountingBranchOfficeENewController = IISHardware_and_Software_accountingBranchOfficeEController;
+export default IISHardware_and_Software_accountingBranchOfficeENewController;

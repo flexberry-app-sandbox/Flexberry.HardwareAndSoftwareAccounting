@@ -1,0 +1,9 @@
+﻿{
+  "nameSpace": "IIS.Hardware_and_Software_accounting",
+  "className": "tState",
+  "enumObjects": {
+    "Excellent": "Excellent",
+    "Good": "Good",
+    "Poor": "Poor"
+  }
+}

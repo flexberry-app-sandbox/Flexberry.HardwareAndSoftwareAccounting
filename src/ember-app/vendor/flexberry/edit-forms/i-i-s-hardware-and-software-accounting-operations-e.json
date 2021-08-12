@@ -1,0 +1,31 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Hardware",
+      "projection": "HardwareL",
+      "detailModelName": null
+    },
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Admin",
+      "projection": "UserL",
+      "detailModelName": null
+    }
+  ],
+  "external": false,
+  "caption": "Operations",
+  "name": "IISHardware_and_Software_accountingOperationsE",
+  "className": "OperationsE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-hardware-and-software-accounting-operations",
+      "modelProjection": "OperationsE"
+    }
+  ]
+}

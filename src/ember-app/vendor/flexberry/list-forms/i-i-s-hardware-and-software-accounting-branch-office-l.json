@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-hardware-and-software-accounting-branch-office-e",
+  "editForm": "i-i-s-hardware-and-software-accounting-branch-office-e",
+  "external": false,
+  "caption": "Branch office",
+  "name": "IISHardware_and_Software_accountingBranchOfficeL",
+  "className": "BranchOfficeL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-hardware-and-software-accounting-branch-office",
+      "modelProjection": "BranchOfficeL"
+    }
+  ]
+}

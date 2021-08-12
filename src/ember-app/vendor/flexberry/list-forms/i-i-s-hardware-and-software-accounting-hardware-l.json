@@ -1,0 +1,15 @@
+﻿{
+  "newForm": null,
+  "editForm": null,
+  "external": false,
+  "caption": "",
+  "name": "IISHardware_and_Software_accountingHardwareL",
+  "className": "HardwareL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-hardware-and-software-accounting-hardware",
+      "modelProjection": "HardwareL"
+    }
+  ]
+}

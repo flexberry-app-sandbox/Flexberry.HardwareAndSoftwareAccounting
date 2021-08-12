@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "User",
+  "name": "IISHardware_and_Software_accountingUserE",
+  "className": "UserE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-hardware-and-software-accounting-user",
+      "modelProjection": "UserE"
+    }
+  ]
+}
