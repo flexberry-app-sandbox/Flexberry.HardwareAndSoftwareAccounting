@@ -4,7 +4,9 @@
   "JsonMetadataPath": null,
   "OnlineCrpUrl": "https://designer.flexberry.net",
   "OneShotToken": null,
-  "GenPath": "../../../src",
+  "GenPath": "src",
+  "BeforeGenScriptPath": null,
+  "AfterGenScriptPath": null,
   "GenerationItems": {
     "Validate": false,
     "Frontend": {
